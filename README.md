@@ -77,23 +77,6 @@ User Request -> API Gateway -> Auth Service -> Token Validation
 - Strong typing
 - Language-agnostic service contracts
 
-## 💻 Development Workflow
-
-### Local Development
-```bash
-# Clone repository
-git clone https://github.com/your-org/internet-access-system.git
-
-# Initialize services
-make init
-
-# Run services
-make dev
-
-# Run tests
-make test
-```
-
 ## 🛠️ Service Configurations
 
 ### Authentication Service
@@ -111,18 +94,6 @@ make test
 - Webhook handling
 - Recurring billing support
 
-## 📊 Monitoring & Observability
-- Prometheus for metrics
-- Jaeger for distributed tracing
-- ELK stack for logging
-- Grafana dashboards
-
-## 🔍 Future Roadmap
-- Serverless function integration
-- Machine learning usage prediction
-- Advanced analytics
-- Multi-cloud support
-
 ## 📦 Repository Structure
 ```
 internet-access-system/
@@ -139,23 +110,3 @@ internet-access-system/
 ├── pkg/               # Shared packages
 └── scripts/           # Development scripts
 ```
-
-## 🤝 Contribution Guidelines
-- Follow Golang best practices
-- Write comprehensive tests
-- Use gRPC and Protocol Buffers
-- Maintain service independence
-
-## 📄 License
-[Specify your license]
-```
-
-I've created a comprehensive README that outlines the system architecture based on your specifications. The document provides:
-- Clear service breakdown
-- Communication protocol details
-- Development workflow
-- Security considerations
-- Deployment strategy
-- Repository structure
-
-Would you like me to elaborate on any specific aspect of the system architecture?
